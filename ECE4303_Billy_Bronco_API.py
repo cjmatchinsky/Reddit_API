@@ -17,11 +17,11 @@ self.screen = pygame.display.set_mode([960, 720])
 
 def create_reddit_object():
     reddit = praw.Reddit(
-                        client_id = "uWCWOwL_ZF8pXUowQQMDXg",
-                        client_secret = "SyMERL09az-rgYfdCS2yqb-ceP94Hg",
-                        user_agent = "Test_api",
-                        username = "camyjm1",    
-                        password = "1234kira",)
+                        client_id = " ",
+                        client_secret = " ",
+                        user_agent = " ",
+                        username = " ",    
+                        password = " ",)
     return reddit
 
 def is_name_in_text(length,text,names):
